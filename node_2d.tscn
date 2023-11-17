@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://dsbkrne4hnnpj"]
+
+[ext_resource type="Script" path="res://dwanejumpscare.gd" id="1_47wi6"]
+[ext_resource type="Texture2D" uid="uid://c1pwqs3mecnvl" path="res://player/MV5BOWU1ODBiNGUtMzVjNi00MzdhLTk0OTktOWRiOTIxMWNhOGI2XkEyXkFqcGdeQXVyMTU2OTM5NDQw._V1_.jpg" id="2_8d4uq"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_47wi6")
+
+[node name="Mv5bowu1odBiNgUtMzVjNi00MzdhLTk0oTktOwRiOtIxMwNhOgi2XkEyXkFqcGdeQxVyMtu2otm5ndQw_V1" type="Sprite2D" parent="."]
+texture_filter = 2
+position = Vector2(8, 32)
+scale = Vector2(0.00613732, 0.017472)
+texture = ExtResource("2_8d4uq")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(8, 32)
+scale = Vector2(0.8, 3.2)
+
+[connection signal="screen_entered" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_entered"]

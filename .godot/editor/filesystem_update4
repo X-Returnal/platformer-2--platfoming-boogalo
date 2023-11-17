@@ -1,4 +1,6 @@
-res://player/player.tscn
+res://dwanejumpscare.gd
+res://player/world.tres
 res://world.tscn
 res://main.tscn
-res://player/player.gd
+res://player/player.tscn
+res://node_2d.tscn

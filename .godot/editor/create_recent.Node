@@ -1,3 +1,7 @@
+VisibleOnScreenNotifier2D
+TileMap
+ParallaxLayer
+ParallaxBackground
 AnimationTree
 AnimationPlayer
 Camera2D
